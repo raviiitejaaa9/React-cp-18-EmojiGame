@@ -1,0 +1,35 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to Bottom, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+
+.bottom-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 85%;
+}
+
+.emojis-container {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-grow: 1;
+  margin: 20px;
+}
+
+/* 
+<ul className="emojis-container">
+    {emojisList.map(eachItem => (
+      <EmojiCard eachEmoji={eachItem} key={eachItem.id} />
+    ))}
+</ul>
+*/
