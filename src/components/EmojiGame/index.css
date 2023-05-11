@@ -32,4 +32,14 @@
       <EmojiCard eachEmoji={eachItem} key={eachItem.id} />
     ))}
 </ul>
+
+<ul className="emojis-container">
+            {emojisList.map(eachItem => (
+              <EmojiCard
+                eachEmoji={eachItem}
+                key={eachItem.id}
+                onAddId={this.onAddId}
+              />
+            ))}
+          </ul>
 */

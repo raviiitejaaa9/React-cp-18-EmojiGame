@@ -35,7 +35,16 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 30px;
-  width: 10%;
+  width: 15%;
+}
+
+.score-container-none {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  width: 15%;
 }
 
 .score {
